@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: "Dana-FaNum";
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .head {
@@ -31,39 +31,39 @@
 .main-img {
   margin-top: 16px;
 }
-.gallery{
+.gallery {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
   margin-bottom: 16px;
 }
-.feachers{
+.feachers {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
 }
-.categories{
+.categories {
   display: flex;
-  color: #FF4332;
+  color: #ff4332;
   font-weight: 300;
   font-size: 12px;
   justify-content: space-between;
   gap: 8px;
 }
-.categories >p{
-  background: #FFF0EF;
+.categories > p {
+  background: #fff0ef;
   border-radius: 4px;
   padding: 8px 12px;
 }
-.name{
+.name {
   color: #101010;
   text-transform: capitalize;
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 5px;
 }
-.location{
+.location {
   display: flex;
   align-items: center;
   text-transform: capitalize;
@@ -73,13 +73,13 @@
   gap: 8px;
   margin-bottom: 24px;
 }
-.information{
+.information {
   display: flex;
   justify-content: space-between;
   margin-bottom: 32px;
 }
-.information >div{
-  font-family: 'Roboto';
+.information > div {
+  font-family: "Roboto";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,33 +93,158 @@
   gap: 8px;
   line-height: 150%;
 }
-.title{
+.title {
   color: #101010;
   font-weight: 600;
   font-size: 14px;
 }
-.Description{
+.Description {
   font-weight: 500;
   font-size: 12px;
   color: #878787;
   letter-spacing: -0.02em;
   line-height: 160%;
-  margin-top: 4px;  
+  margin-top: 4px;
   margin-bottom: 32px;
 }
-.Description >a{
+.Description > a {
   text-decoration: none;
-  color: #FF4332;
+  color: #ff4332;
   margin-left: 1px;
 }
-.offers{
+.offers {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.offers >a{
+.offers > a {
   text-decoration: none;
-  color: #FF4332;
+  color: #ff4332;
   font-weight: 500;
   font-size: 12px;
+}
+.offers-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.offers-list > div {
+  display: flex;
+  background: #f3f3f3;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 6px;
+}
+.offers-list > div > p {
+  color: #101010;
+  font-weight: 500;
+  font-size: 12px;
+}
+.Exact-location {
+  color: #878787;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 12px;
+}
+.loc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.map {
+  border-radius: 12px;
+  margin-top: 7px;
+  margin-bottom: 26px;
+}
+.host {
+  display: flex;
+  background: #101010;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 15px 16px;
+  margin-bottom: 32px;
+}
+.profile {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  gap: 8px;
+}
+.Hosted {
+  color: #adafae;
+  font-weight: 400;
+  font-size: 14px;
+}
+.Rock {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.similar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.similar > a {
+  text-decoration: none;
+  color: #ff4332;
+  font-weight: 500;
+  font-size: 12px;
+}
+.suggestion {
+  display: flex;
+  box-shadow: 4px 4px 16px rgba(18, 18, 18, 0.04);
+  border-radius: 12px;
+  width: 304px;
+}
+.suggestion1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  color: #101010;
+}
+.suggestion3 {
+  display: flex;
+  justify-content: space-between;
+}
+.suggestion2 {
+  display: flex;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #878787;
+  font-weight: 400;
+  font-size: 12px;
+  gap: 8px;
+}
+.suggestion0 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 12px 15px 0;
+  justify-content: space-between;
+  width: 180px;
+}
+.suggestion-1 {
+  border-radius: 8px;
+  margin: 8px 12px 8px 8px;
+}
+.suggestions {
+  overflow-y: scroll;
+  display: flex;
+  padding-bottom: 10px;
+}
+.suggestions > div {
+  margin-left: 16px;
+}
+.suggestions > :nth-child(1) {
+  margin-left: 0;
 }
