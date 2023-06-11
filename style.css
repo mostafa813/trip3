@@ -189,7 +189,7 @@
   font-weight: 600;
   font-size: 14px;
 }
-.similar{
+.similar {
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
@@ -249,14 +249,39 @@
 .suggestions > :nth-child(1) {
   margin-left: 0;
 }
-.coment{
+.coment {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
 }
-.comment-head{
+.comment-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 16px;
+}
+.come1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.coment-text {
+  color: #adafae;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 12px;
+}
+.coment-text2 {
+  color: #101010;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+}
+.coment-text3 {
+  color: #878787;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
 }
