@@ -1,9 +1,12 @@
 @import url(//db.onlinewebfonts.com/c/ae238c3ee498c52a23aab0d9f5e94d6b?family=dana-fanum);
+
 * {
   padding: 0;
   margin: 0;
   font-family: "Dana-FaNum";
+  font-family: 'Roboto', sans-serif;
 }
+
 .head {
   border-bottom: 1px solid #f3f3f3;
   display: flex;
@@ -16,7 +19,7 @@
   align-items: center;
 }
 .container {
-  padding: 0 20px;
+  padding: 0 24px;
   margin-bottom: 125px;
 }
 .head-text {
@@ -27,4 +30,96 @@
 }
 .main-img {
   margin-top: 16px;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.feachers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.categories{
+  display: flex;
+  color: #FF4332;
+  font-weight: 300;
+  font-size: 12px;
+  justify-content: space-between;
+  gap: 8px;
+}
+.categories >p{
+  background: #FFF0EF;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+.name{
+  color: #101010;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.location{
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #878787;
+  font-weight: 400;
+  font-size: 14px;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.information{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.information >div{
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #101010;
+  border-radius: 12.5625px;
+  width: 67px;
+  height: 67px;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 8px;
+  line-height: 150%;
+}
+.title{
+  color: #101010;
+  font-weight: 600;
+  font-size: 14px;
+}
+.Description{
+  font-weight: 500;
+  font-size: 12px;
+  color: #878787;
+  letter-spacing: -0.02em;
+  line-height: 160%;
+  margin-top: 4px;  
+  margin-bottom: 32px;
+}
+.Description >a{
+  text-decoration: none;
+  color: #FF4332;
+  margin-left: 1px;
+}
+.offers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offers >a{
+  text-decoration: none;
+  color: #FF4332;
+  font-weight: 500;
+  font-size: 12px;
 }
