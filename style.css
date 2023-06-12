@@ -285,3 +285,71 @@
   font-size: 12px;
   line-height: 170%;
 }
+.like {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+.like > p {
+  color: #adafae;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 12px;
+}
+.comen {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.coment-text3 > a {
+  text-decoration: none;
+  color: #ff4332;
+}
+#Read-More {
+  color: #101010;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #101010;
+  border-radius: 8px;
+  background: #ffffff;
+  font-family: "Dana-FaNum";
+  width: 100%;
+}
+.comen-last {
+  margin-bottom: 16px;
+}
+#Book-Now {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background: #ff4332;
+  border-radius: 10px;
+  border: 0;
+  width: 143px;
+  color: #ffffff;
+  font-family: "Dana-FaNum";
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.booking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  margin-top: 40px;
+  border-top: 1px solid #F3F3F3;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff;
+  right: 0;
+  left: 0;
+}
